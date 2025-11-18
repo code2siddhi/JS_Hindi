@@ -49,4 +49,29 @@ const anotherId = Symbol('123')
 console.log(id === anotherId)
 //const bigNumber =1232324343433657n
 
+
+// reference (Non Primitive)
+// Array , Objects, Functions
+// const heros = ["shaktiman", "naagraj", "doga"];
+// let myobj = {
+//     name: "hitesh",
+//     age: 22,
+// }
+
+// const myFunction =  function(){
+
+// }
 //  https://262.ecma-international.org/5.1/#sec-11.4.3
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack (primitive), heap (NON - primitive)
+
+let myYoutubename = "Siddhipriyadotcom"
+anothername = "codeaurchai"
+
+console.log(myYoutubename)
+console.log(anothername)
+
+let user = {
+    email
+}
